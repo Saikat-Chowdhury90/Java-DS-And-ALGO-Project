@@ -1,5 +1,6 @@
 package _450_Problems_DS_ALGO;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Min_Swaps_and_K_Together {
@@ -38,6 +39,7 @@ public class Min_Swaps_and_K_Together {
 			}
 			
 		}
+		
 		int ans=bad;
 		for(int i=0,j=count;j<n;i++,j++)
 		{
